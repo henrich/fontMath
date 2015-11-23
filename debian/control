@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Hideki Yamane <henrich@debian.org>
 Build-Depends: debhelper (>= 9), dh-python,
-               python-all, python3-all,
+               python-all,
                python-robofab,
 Standards-Version: 3.9.6
 Homepage: http://code.typesupply.com
@@ -15,11 +15,3 @@ Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
 Description: collection of objects that implement fast font, glyph, etc. math
  collection of objects that implement fast font, glyph, etc. math
-
-Package: python3-fontmath
-Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
-Description: collection of objects that implement fast font, glyph, etc. math
- collection of objects that implement fast font, glyph, etc. math
- .
- This package supports python3.
