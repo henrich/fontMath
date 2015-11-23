@@ -1,0 +1,24 @@
+Source: fontmath
+Section: python
+Priority: optional
+Maintainer: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper (>= 9), dh-python,
+               python-all, python3-all,
+Standards-Version: 3.9.6
+Homepage: http://code.typesupply.com
+#Vcs-Git: git://anonscm.debian.org/collab-maint/fontmath.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/fontmath.git;a=summary
+
+Package: python-fontmath
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: collection of objects that implement fast font, glyph, etc. math
+ collection of objects that implement fast font, glyph, etc. math
+
+Package: python3-fontmath
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: collection of objects that implement fast font, glyph, etc. math
+ collection of objects that implement fast font, glyph, etc. math
+ .
+ This package supports python3.

@@ -1,0 +1,5 @@
+fontmath (0.2~20151123-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- Hideki Yamane <henrich@debian.org>  Mon, 23 Nov 2015 12:32:39 +0900
