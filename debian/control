@@ -13,5 +13,5 @@ Homepage: http://code.typesupply.com
 Package: python-fontmath
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
-Description: collection of objects that implement fast font, glyph, etc. math
- collection of objects that implement fast font, glyph, etc. math
+Description: collection of objects that implement fast font, glyph, etc.
+ A set of objects for performing math operations on font data.
